@@ -1,0 +1,173 @@
+:root {
+    --color-accent: #ece933;
+    --background-accent: rgba(214, 201, 22, 0.1);
+    --color-highlight: #11110d;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #cf7806;
+    color: rgb(14, 1, 1);
+    padding: 1.5rem; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+header,
+main,
+footer {
+    position: relative;
+    z-index: 10;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+.text-link {
+     color: inherit;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 2.7rem;
+}
+.header p {
+    gap: 4rem;
+    font-size: 1rem;
+}
+.main-text {
+    color: var(--color-highlight);
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+.header-side {
+    font-size: medium;
+    padding-bottom: 4rem;
+}
+
+.main-text:hover {
+    color: var(--color-accent);
+}
+
+.hover-icons {
+    font-size: 1.3rem;
+    max-width: 100px;
+    gap: 7rem;
+}
+
+main {
+    background: #f0d39b;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+.cap-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1rem;
+}
+.nav-sub {
+    font-size: 1.3rem;
+    gap: 1rem;
+    padding-left: 0rem;
+}
+.sub-heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    padding: 0rem;
+}
+
+.anchor-text {
+    color: var(--color-highlight);
+    text-decoration-style: solid;
+    transition-duration: 200ms;
+}
+
+.anchor-text:hover {
+    color: rgb(129, 10, 99);
+}
+.about-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-contents p {
+    font-size: 1.2rem;
+}
+footer {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 640px) {
+    
+    header h1 {
+    font-size: 3.3rem;
+    }
+    main {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    }
+    .cap-content {
+        padding: 0.2rem;
+    }
+    .about-contents p {
+    font-size: 1.2rem;
+    }
+    
+}
+
+
+
+

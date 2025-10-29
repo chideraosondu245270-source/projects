@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ULTIMATE HTML CSS PORTFOLIO"
+		},
+		{
+			"path": "../Google"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "My first portfolio build try"
+	}
+}
